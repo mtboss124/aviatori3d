@@ -1,0 +1,10 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+body {
+  background-image: url("assets/scrollingbgsidel.png"),url("assets/scrollingbgsider.png"),url("assets/citypd.gif"),url("https://aviatori3d.neocities.org/assets/grad.png");
+  background-position:left,right,bottom center;
+  background-repeat: repeat-y , repeat-y,repeat,no-repeat;
+   background-attachment: fixed,fixed,fixed,fixed;
+
+}
