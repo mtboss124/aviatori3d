@@ -4,7 +4,7 @@
 body {
   background-image: url("assets/scrollingbgsidel.png"),url("assets/scrollingbgsider.png"),url("assets/citypd.gif"),url("https://aviatori3d.neocities.org/assets/grad.png");
   background-position:left,right,bottom center;
-  background-repeat: repeat-y , repeat-y,repeat,no-repeat;
+  background-repeat: repeat-y , repeat-y,no-repeat,repeat;
    background-attachment: fixed,fixed,fixed,fixed;
 
 }
