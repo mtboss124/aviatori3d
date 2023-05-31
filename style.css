@@ -29,6 +29,14 @@ body {
    margin-right: auto;
    margin-top: 5px;
    margin-bottom: 5px;
+   -webkit-transition: 0.2s;
+   transition: 0.2s;
+
+}
+.image:hover{
+   -webkit-transition: 0.2s;
+   transition: 0.2s;
+   transform: scale(2.15, 2.15);
 
 }
 .container {
@@ -38,4 +46,11 @@ body {
    content: "";
    clear: both;
    display: table;
+ }
+ .profilebaner {
+   margin: auto;
+   width: 50%;
+   border: 3px solid #222034;
+   background-color: #060411;
+   padding: 10px;
  }

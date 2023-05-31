@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of aviatori3d</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body> 
+  
+    <div class="container">
+        <?php
+
+$dir_path = "assets/pftestimages";
+$extensions_array = array('jpg','png','jpeg','gif');
+if(is_dir($dir_path))
+{
+    $files = scandir($dir_path);
+    
+    for($i = 0; $i < count($files); $i++)
+    {
+        if($files[$i] !='.' && $files[$i] !='..')
+        {
+    
+            // get file extension
+            $file = pathinfo($files[$i]);
+            $extension = $file['extension'];
+           
+           // check file extension
+            if(in_array($extension, $extensions_array))
+            {
+            // show image
+            echo "<a href='$dir_path/$files[$i]'><img src='$dir_path/$files[$i]'class='image'</a>";
+            }
+        }
+    }
+}
+?>
+
+
+    </div>
+  </body>
+</html>
