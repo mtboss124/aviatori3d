@@ -6,7 +6,7 @@ body {
   background-position:left,right,bottom center;
   background-repeat: repeat-y , repeat-y,no-repeat,repeat;
    background-attachment: fixed,fixed,fixed,fixed;
-   background-size: auto,auto,cover,auto;
+   background-size: auto,auto,width:cover,auto;
 
 }
 .center{
