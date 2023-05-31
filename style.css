@@ -28,8 +28,8 @@ body {
 }
 .image{
    float: left;
-   margin: auto;
-   width: 50%;
+  width: 33.33%;
+  padding: 5px;
 
 }
 .container {
