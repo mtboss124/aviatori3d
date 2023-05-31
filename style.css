@@ -31,6 +31,7 @@ body {
 
 }
 .container {
-   align-items: center; 
 
+   margin: auto;
+   width: 50%;
  }
