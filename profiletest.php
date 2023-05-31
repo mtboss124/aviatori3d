@@ -3,6 +3,7 @@
 $dir_path = "assets/pftestimages";
 $extensions_array = array('jpg','png','jpeg','gif');
 echo "<link href='/style.css' rel='stylesheet' type='text/css' media='all'>";
+echo '<div class="container">';
 if(is_dir($dir_path))
 {
     $files = scandir($dir_path);
@@ -25,6 +26,6 @@ if(is_dir($dir_path))
         }
     }
 }
-
+echo '</div>';
 
 
