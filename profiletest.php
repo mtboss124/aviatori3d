@@ -2,7 +2,7 @@
 
 $dir_path = "assets/pftestimages";
 $extensions_array = array('jpg','png','jpeg','gif');
-echo "<link href="/style.css" rel="stylesheet" type="text/css" media="all">";
+echo "<link href='/style.css' rel='stylesheet' type='text/css' media='all'>";
 if(is_dir($dir_path))
 {
     $files = scandir($dir_path);
@@ -11,16 +11,20 @@ if(is_dir($dir_path))
     {
         if($files[$i] !='.' && $files[$i] !='..')
         {
-            // get file name
-            echo "File Name -> $files[$i]<br>";
+    
+            // get file extension
+            $file = pathinfo($files[$i]);
+            $extension = $file['extension'];
+           
            // check file extension
             if(in_array($extension, $extensions_array))
             {
             // show image
-            echo "<img src='$dir_path$files[$i]' style='width:100px;height:100px;'><br>";
+            echo "<img src='$dir_path/$files[$i]'style='width:150px;height:150px;'><br>";
             }
         }
     }
 }
 
-   echo "<link href="/style.css" rel="stylesheet" type="text/css" media="all">";
+
+
