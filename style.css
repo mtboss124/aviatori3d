@@ -14,3 +14,9 @@ body {
    margin-right: auto;
     width: 50%;
 }
+.dividir{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 30%;
+}
