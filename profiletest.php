@@ -24,4 +24,3 @@ if(is_dir($dir_path))
 }
 
    echo "<link href="/style.css" rel="stylesheet" type="text/css" media="all">";
-   ?>
