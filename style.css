@@ -22,7 +22,8 @@ body {
 }
 
 .image{
-  align-self: center;
+   float: left;
+   padding: 5px;
    margin-left: auto;
    margin-right: auto;
    margin-top: 5px;
@@ -33,5 +34,7 @@ body {
    margin-left: auto;
    margin-right: auto;
    margin: auto;
-   width: 50%;
+   content: "";
+   clear: both;
+   display: table;
  }
