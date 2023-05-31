@@ -28,6 +28,8 @@ body {
 }
 .image{
    float: left;
+   margin: auto;
+   width: 50%;
 
 }
 .container {
