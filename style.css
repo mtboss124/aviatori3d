@@ -20,16 +20,12 @@ body {
    margin-right: auto;
     width: 45%;
 }
-.pfps{
-  
-   margin-top: 5px;
-   margin-bottom: 5px;
 
-}
 .image{
    float: left;
-  width: 15%;
 
+   margin-top: 5px;
+   margin-bottom: 5px;
 
 }
 .container {
