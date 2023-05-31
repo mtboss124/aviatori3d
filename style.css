@@ -28,3 +28,11 @@ body {
    margin-right: auto;
     width: 15%;
 }
+.image{
+   float: left;
+ padding: 5px;
+}
+.container {
+   align-items: center; 
+   float: left;
+ }
