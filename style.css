@@ -22,7 +22,7 @@ body {
 }
 
 .image{
-  
+  align-self: center;
    margin-left: auto;
    margin-right: auto;
    margin-top: 5px;
