@@ -12,13 +12,13 @@ body {
    display: block;
    margin-left: auto;
    margin-right: auto;
-    width: 80%;
+    width: 65%;
 }
 .dividir{
    display: block;
    margin-left: auto;
    margin-right: auto;
-    width: 50%;
+    width: 45%;
 }
 .pfps{
    display: flex;
